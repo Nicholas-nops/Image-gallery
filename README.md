@@ -1,4 +1,38 @@
+
 # ImageGallery
+## This is an image gallery made using Angular,TypeScript and JavaScript
+### The objective is to improve basics knowledges about Angular.
+
+
+
+![mainpage](https://github.com/Nicholas-nops/Image-gallery/blob/master/src/mainpage.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
