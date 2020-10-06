@@ -1,0 +1,11 @@
+<div class="container">
+    <div>
+        <h2>{{titles[userIndex]}}</h2>
+        <img src={{images[userIndex]}}/>
+    </div>
+    Foto {{userIndex}} de 5
+    <button href="#" [disabled]="userIndex == 1" (click)="firstImg(1)" class="first">|&laquo;</button>
+    <button href="#" [disabled]="userIndex == 1" (click)="changeIndex(-1)" class="previous">&laquo;</button>
+    <button href="#" [disabled]="userIndex == 5" (click)="changeIndex(1)" class="next">&raquo;</button>
+    <button href="#" [disabled]="userIndex == 5" (click)="lastImg(4)" class="last">&raquo;|</button>
+</div>
